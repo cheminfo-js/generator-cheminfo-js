@@ -54,7 +54,7 @@ module.exports = yeoman.Base.extend({
     this.fs.copy(this.templatePath('travis.yml'), this.destinationPath('.travis.yml'));
     this.fs.copy(this.templatePath('index.js'), this.destinationPath('src/index.js'));
 
-    this.fs.copyTpl(this.templatePath('test'), this.destinationPath('src/test.js'), includes);
+    this.fs.copyTpl(this.templatePath('test'), this.destinationPath('test/test.js'), includes);
     this.fs.copyTpl(this.templatePath('History.md'), this.destinationPath('History.md'), includes);
     this.fs.copyTpl(this.templatePath('LICENSE'), this.destinationPath('LICENSE'), includes);
     this.fs.copyTpl(this.templatePath('node'), this.destinationPath('package.json'), includes);
