@@ -17,7 +17,6 @@ describe('generator-cheminfo-js:app', function () {
     assert.file([
       '.gitignore',
       '.travis.yml',
-      '.eslintrc.yml',
       'src/index.js',
       'test/test.js',
       'History.md',

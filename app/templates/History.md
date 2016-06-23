@@ -1,0 +1,4 @@
+<%= version %> / HEAD
+============
+
+* first release
