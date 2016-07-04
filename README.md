@@ -37,7 +37,6 @@ When the generator finish there will be the following files:
 
 ```
 .
-├── .eslintrc.yml
 ├── .gitignore
 ├── .travis.yml
 ├── History.md
