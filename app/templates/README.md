@@ -10,7 +10,7 @@
 ## Installation
 
 ```
-$ npm install cheminfo-<%= name %>
+$ npm install <%= name %>
 ```
 
 ## License
