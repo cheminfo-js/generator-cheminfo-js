@@ -1,13 +1,14 @@
 'use strict';
-var yeoman = require('yeoman-generator');
-var chalk = require('chalk');
-var yosay = require('yosay');
+
+const yeoman = require('yeoman-generator');
+const chalk = require('chalk');
+const yosay = require('yosay');
 
 module.exports = yeoman.Base.extend({
   prompting: function () {
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Behold the almighty ' + chalk.red('generator-cheminfo-js') + ' generator!'
+      `Behold the almighty ${chalk.red('generator-cheminfo-js')} generator!`
     ));
 
     var prompts = [{
